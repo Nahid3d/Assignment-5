@@ -3,9 +3,170 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <title>P-Ticket</title>
+    <link rel="shortcut icon" href="./images/bus-icon.png" type="image/x-icon">
+    <!-- tailwind css link -->
+    
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    
+    <header class="mx-20 mt-5">
+        <!-- nav bar  -->
+        <div>
+          <div class="navbar bg-base-100">
+            <div class="navbar-start">
+              <div class="dropdown">
+                <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                </div>
+                <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                  <li><a>Item 1</a></li>
+                  <li>
+                    <a>Parent</a>
+                  </li>
+                  <li><a>Item 3</a></li>
+                </ul>
+              </div>
+              <div>
+                <h1 class="text-black font-extrabold text-3xl">P-Ticket</h1>
+              </div>
+            </div>
+            <div class="navbar-center hidden lg:flex">
+              <ul class="menu menu-horizontal px-1">
+                <li><a>Home</a></li>
+                <li><a>About</a></li>
+                <li><a>Destination</a></li>
+                <li><a>Search</a></li>
+              </ul>
+            </div>
+            <div class="navbar-end flex">
+              <a class="btn w-32 border-[#1DD10066] hover:border-[#1DD10066] bg-[#1DD1001A] hover:bg-[#1DD1001A] text-2xl font-semibold text-[#1DD100]">Bus</a>
+             <img class="absolute mt-2 mr-4 " src="/images/bus-icon.png" alt="bus icon">
+            </div>
+          </div>
+                
+              </div>
+
+              <!-- banner section  -->
+              <div>
+                <!-- bg img  -->
+                <div style=" background-image: url(./images/banner.png); background-repeat: no-repeat; background-size: cover;" class="min-h-[400px]  ">
+                 <h1 class="text-center text-4xl ml-48 mt-10 absolute text-white font-extrabold">End-to-End Travel with <br> <span class="text-[#1DD100] font-extrabold">P Paribahan</span></h1>
+                 <p class="ml-52 opacity-75 text-white text-justify mt-32 absolute">Shohoz, owned and operated Limited, is Bangladesh’s <br> largest online ticket destination, which is committed </p>
+                 <button class="btn hover:bg-[#1DD100] ml-[350px] mt-52 text-black border-none bg-[#1DD100]">Bay Ticket</button>
+                </div>
+                <!-- card content  -->
+                <div  class="flex gap-7  mx-20  ">
+                  <div class="card card-side shadow-xl  border-b-[#1DD100] w-52 ">
+                    <figure><img class="w-10" src="./images/people.png" alt=""/></figure>
+                    <div class="">
+                      <h2 class="card-title font-extrabold">500k</h2>
+                      <p class="text-gray-400">Registered users</p>
+                    
+                    </div>
+                  </div>
+                  <div class="card card-side shadow-xl border-b-[#1DD100] w-52 ">
+                    <figure><img class="w-10" src="./images/stoppage.png" alt=""/></figure>
+                    <div class="">
+                      <h2 class="card-title font-extrabold">1.7 lacks</h2>
+                      <p class="text-gray-400">ticket sold </p>
+                    
+                    </div>
+                  </div>
+                  <div class="card card-side shadow-xl border-b-[#1DD100] w-52 ">
+                    <figure><img class="w-10" src="./images/ticket-cupon.png" alt=""/></figure>
+                    <div class="">
+                      <h2 class="card-title font-extrabold">80k</h2>
+                      <p class="text-gray-400">rontanal palel</p>
+                    
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- best offer for you  -->
+            <div class=" ">
+              <h1 class="text-center font-semibold text-3xl mt-8 mb-3">Best offers for you</h1>
+              <div class="flex justify-between">
+               
+                <!-- left div main  -->
+                <div class="border border-yellow-500 rounded-lg w-96 h-[221px] text-center flex px-10 py-16 
+                justify-between items-center capitalize bg-yellow-500">
+                  <!-- card  -->
+                  <div class="text-justify">
+                    <h1 class="text-black text-2xl font-extrabold">15% OFF</h1>
+                      <h2 class="text-black text-sm font-bold">on your next purchase
+                        <br>
+                      </h2> <span class="text-black opacity-70">use by January 2024</span>
+                     
+                  </div>
+                  <img src="./images/cupon-devider.png" alt="">
+                  <div class="text-justify">
+                    <h1 class="text-black text-2xl font-extrabold">new 15</h1>
+                    <span class="text-black opacity-70">coupon code </span>
+                  </div>
+                </div>
+
+                <!-- right div  -->
+               <div>
+                <div class="border-[#F78C9C] rounded-lg w-96 h-[221px] text-center flex px-10 py-16 
+                justify-between items-center capitalize bg-[#F78C9C]">
+                  <!-- card  -->
+                  <div class="text-justify">
+                    <h1 class="text-black text-2xl font-extrabold">20% OFF</h1>
+                      <h2 class="text-black text-[12px] font-bold">on your next purchase
+                        <br>
+                      </h2> <span class="text-black opacity-70">use by January 2024</span>
+                     
+                  </div>
+                  <img src="./images/cupon-devider.png" alt="">
+                  <div class="text-justify">
+                    <h1 class="text-black text-xl font-extrabold">coupon 20</h1>
+                    <span class="text-black opacity-70">coupon code </span>
+
+                    
+                  </div>
+                </div>
+               </div>
+              
+                
+              </div>
+              <button class="btn my-6 ml-[340px] text-center bg-white hover:bg-white hover:border-[#1DD100] capitalize text-2xl  hover:none  text-[#1DD100] border border-[#1DD100]"> see all offers</button>
+            </div>
+             
+        </div>
+    </header>
+    <main>
+      <!-- title section  -->
+      <section class=" bg-[#F7F8F8]">
+      <div class="mx-20 mt-5">
+        <div>
+          <h1 class="text-4xl text-black font-extrabold text-center">P.H Paribahan</h1>
+        <p class="text-gray-400 text-sm mt-4 text-center">
+          Shohoz, owned and operated Limited, is Bangladesh’s  largest online ticket destination, which is committed
+          Shohoz, owned and operated Limited, is Bangladesh’s  largest online ticket destination, which is committed
+        </p>
+        </div>
+        <div class=" flex justify-between">
+          <div class="ml-20 mt-4 mb-5 justify-center">
+            <img class="absolute mt-6 -ml-20 w-16" src="./images/bus-logo.png" alt="">
+            <h1 class="text-2xl mt-3 text-black font-extrabold">Greenline Paribahan</h1> <br>
+            <p class="text-gray-400 -mt-4">Coach-009-WEB ! AC_Business</p>
+          </div>
+          <div class=" flex justify-between mt-10">
+            <img class="absolute mt-2  " src="/images/seat-green.png" alt="bus icon">
+            <a class="btn  w-44 border-[#1DD10066] hover:border-[#1DD10066] bg-[#1DD1001A] hover:bg-[#1DD1001A] text-xl font-semibold text-[#1DD100]">40 seats left</a>
+           
+          </div>
+
+        </div>
+        
+      </div>
+      </section>
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
