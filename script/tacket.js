@@ -39,9 +39,10 @@ for(const btn of allBtn){
             setInnerText('t-count',count);
         }
 
+        
          const price = e.target.parentNode.childNodes[1].innerText;
          console.log(price)
-         const selectedCont = document.getElementById('single-price');
+         const selectedCont = document.getElementById('select-seat');
          const li = document.createElement('li');
          const p =document.createElement('p');
          p.innerText = price;
